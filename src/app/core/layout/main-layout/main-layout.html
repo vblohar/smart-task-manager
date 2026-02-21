@@ -1,0 +1,14 @@
+<div class="main-layout">
+    <mat-toolbar color="primary">
+        <span>Smart Task Manager</span>
+    </mat-toolbar>
+    <div class="layout">
+        <div class="sidebar">
+            <button mat-button routerLink="/">Tasks</button>
+            <button mat-button routerLink="/create">Create Task</button>
+        </div>
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
